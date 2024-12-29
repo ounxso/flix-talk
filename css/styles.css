@@ -1,0 +1,17 @@
+@import 'variables.css';
+@import 'reset.css';
+
+@import 'screens/login.css';
+
+@import 'components/satus-bar.css';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--black);
+  color: white;
+  height: 100vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
