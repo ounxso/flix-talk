@@ -2,8 +2,14 @@
 @import 'reset.css';
 
 @import 'screens/login.css';
+@import 'screens/programs.css';
 
 @import 'components/satus-bar.css';
+@import 'components/screen-header.css';
+@import 'components/user-component.css';
+@import 'components/nav-bar.css';
+@import 'components/badge.css';
+@import 'components/no-mobile.css';
 
 body {
   font-family: 'Open Sans', sans-serif;
