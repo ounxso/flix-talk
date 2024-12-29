@@ -1,0 +1,62 @@
+#programs-display-link {
+  text-align: center;
+  display: block;
+  background-color: var(--red);
+  padding: 15px 0px;
+  font-size: 12px;
+  margin-bottom: 30px;
+  margin-top: -7px;
+}
+
+#programs-display-link i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.programs-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.programs-screen__list {
+  margin-top: 30px;
+  border-top: 0.5px solid var(--red);
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.programs-screen__list-header {
+  font-size: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: black;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+#splash-screen img {
+  width: 150px;
+  height: 150px;
+}
